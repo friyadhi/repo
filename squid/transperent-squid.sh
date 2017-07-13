@@ -21,6 +21,8 @@ http_access allow SSH
 http_access allow manager localhost
 http_access deny manager
 http_access allow localhost
+http_access deny CONNECT !SSL_ports
+http_access deny !Safe_ports
 http_access deny all
 http_port 3168
 http_port 8181
