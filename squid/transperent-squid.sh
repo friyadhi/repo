@@ -31,3 +31,4 @@ refresh_pattern -i (/cgi-bin/|\?) 0 0% 0
 refresh_pattern . 0 20% 4320
 visible_hostname friyadhi.mooo.com
 EOF
+#referensi https://deviantengineer.com/2014/03/squid-sshtunnel-centos6/
