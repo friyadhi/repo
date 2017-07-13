@@ -27,7 +27,7 @@ exit
 else
 clear
 fi
-echo -e "\033[1;31m           Instalador Badvpn\n\033[1;37minstall gcc Cmake make g++ openssl etc...\033[0m"
+echo -e "\033[1;31m           Install Badvpn\n\033[1;37minstall gcc Cmake make g++ openssl etc...\033[0m"
 apt-get update >/dev/null 2>/dev/null
 apt-get install -y gcc >/dev/null 2>/dev/null
 apt-get install -y make >/dev/null 2>/dev/null
